@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Socket">
+      <UniqueIdentifier>{d6431008-e1b6-45f4-ab5c-37ea4853f1f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Curl">
+      <UniqueIdentifier>{5b1b8892-81dc-4958-a018-2fddc954f029}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="json">
+      <UniqueIdentifier>{8c7a2225-5043-4f5b-9fe5-764b049718d8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="webApi">
+      <UniqueIdentifier>{df0789dd-b335-43c4-ace0-10b943350c09}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="xml">
+      <UniqueIdentifier>{040ce42f-4c3b-4c8b-95a6-b729c4b71bb6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CleanSocket.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="CleanSocketDlg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\MySocket.h">
+      <Filter>Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curl.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlbuild.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlrules.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\curlver.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\easy.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\mprintf.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\multi.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\stdcheaders.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\system.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="Curl\typecheck-gcc.h">
+      <Filter>Curl</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="json\json-forwards.h">
+      <Filter>json</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\BaseService.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\HttpService.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\PingCpp.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\RegisterEx.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\simple_function.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="webApi\UrlCode.h">
+      <Filter>webApi</Filter>
+    </ClInclude>
+    <ClInclude Include="xml\tinyxml2.h">
+      <Filter>xml</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="CleanSocket.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="CleanSocketDlg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Socket\MySocket.cpp">
+      <Filter>Socket</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="json\jsoncpp.cpp">
+      <Filter>json</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\BaseService.cpp">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\HttpService.cpp">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\PingCpp.cpp">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\RegisterEx.cpp">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\simple_function.cc">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="webApi\UrlCode.cpp">
+      <Filter>webApi</Filter>
+    </ClCompile>
+    <ClCompile Include="xml\tinyxml2.cpp">
+      <Filter>xml</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="CleanSocket.rc">
+      <Filter>资源文件</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\CleanSocket.rc2">
+      <Filter>资源文件</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\CleanSocket.ico">
+      <Filter>资源文件</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
